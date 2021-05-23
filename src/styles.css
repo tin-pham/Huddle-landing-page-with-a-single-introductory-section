@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.icon {
+  @apply w-10 h-10 border border-gray-300 p-4 flex justify-center items-center rounded-full hover:bg-white hover:text-purpleM z-10 active:border-pinkM active:text-pinkM active:bg-purpleM;
+}

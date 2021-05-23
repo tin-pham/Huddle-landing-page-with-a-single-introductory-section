@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "tailwindcss": "^2.1.2"
+  },
+  "name": "huddle-landing-page-with-single-introductory-section-master",
+  "description": "![Design preview for the Huddle landing page with single introductory section](./design/desktop-preview.jpg)",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "build:css": "tailwind build src/styles.css -o dist/styles.css"
+  },
+  "keywords": [],
+  "author": "TinPham",
+  "license": "MIT"
+}
