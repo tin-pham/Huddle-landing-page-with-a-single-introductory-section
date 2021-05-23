@@ -11,13 +11,14 @@
     <title>Frontend Mentor | Huddle landing page with single introductory section</title>
   </head>
   <body class="relative bg-purpleM text-white text-center lg:text-left select-none min-h-screen">
-    <figure style="background-image: url(./images/bg-mobile.svg)" class="absolute lg:static w-full h-full bg-no-repeat bg-top z-0"></figure>
-    <figure style="background-image: url(./images/bg-desktop.svg)" class="lg:absolute w-full h-full bg-no-repeat bg-center bg-cover z-0"></figure>
-    <section class="p-12">
+    <!-- <figure style="background-image: url(./images/bg-mobile.svg)" class="absolute lg:hidden w-full h-full bg-no-repeat bg-top z-0"></figure> -->
+    <figure style="background-image: url(./images/bg-mobile.svg); z-index: -1" class="absolute w-full h-full bg-no-repeat bg-top"></figure>
+    <figure style="background-image: url(./images/bg-desktop.svg)" class="lg:absolute w-full h-full bg-no-repeat bg-center bg-cover z-10"></figure>
+    <section class="p-12 min-h-screen overflow-hidden">
       <img src="./images/logo.svg" alt="" class="w-44" />
-      <section class="xl:grid grid-cols-7 place-items-center gap-20 min-h-screen">
-        <img src="./images/illustration-mockups.svg" alt="" class="my-16 mx-auto w-full col-span-4 z-10" />
-        <div class="mb-16 col-span-3 z-10">
+      <section class="lg:grid grid-cols-7 place-items-center gap-20">
+        <img src="./images/illustration-mockups.svg" alt="" class="my-16 mx-auto w-full col-span-4 z-20" />
+        <div class="mb-16 col-span-3 z-20">
           <h1 class="font-Poppins font-bold text-3xl lg:text-5xl lg:leading-relaxed mb-4">Build The Community Your Fans Will Love</h1>
           <p class="leading-relaxed mb-7 lg:text-xl">
             Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you
